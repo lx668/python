@@ -1,0 +1,2 @@
+说明:本脚本只需要你更改刷新cnd的域名，你也可以结合jenkins或者hudson开源发布工具，在脚本添加执行此条命令
+ssh -tt 192.168.56.11 "source /etc/profile && sh /data/scripts/cdn/result.sh"
